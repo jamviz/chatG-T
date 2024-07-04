@@ -1,0 +1,738 @@
+
+{
+    "intents": [
+      {
+        "tag": "Artículo 1 Finalidad",
+        "patterns": [
+          "Hola",
+          "como estas?",
+          "cual es tu  finalidad",
+          "que puedes hacer",
+          "quien eres",
+          "que puede hacer",
+          "hablame mas de ti",
+          "cuantame mas de ti",
+          "eres un robot",
+          "eres un chatbot",
+          "hola","ola que tal"
+        ],
+        "responses": [
+          "¡Hola! Soy un chatbot de AiMara y estoy aquí para ayudarte. Mi función es proporcionarte toda la información necesaria sobre los procedimientos, requisitos y criterios para obtener el Grado Académico de Bachiller y el Título Profesional en cada una de las Escuelas Profesionales de la Universidad Nacional de Moquegua, siempre siguiendo al pie de la letra la normativa vigente. \n \n Mi misión principal es asegurarme de que tengas respuestas claras y precisas sobre las normas de administración que rigen estos procesos, ya que tanto el Grado Académico de Bachiller como el Título Profesional son reconocimientos importantes que la Universidad Nacional de Moquegua otorga en nombre de nuestra nación. \n \n Estoy aquí para servirte, así que no dudes en acudir a mí si tienes alguna pregunta o necesitas orientación. Mi objetivo es brindarte la mejor ayuda posible, tanto si eres estudiante, egresado, bachiller, docente o autoridad de alguna de las Escuelas Profesionales de nuestra universidad, así como en las respectivas dependencias administrativas. ¡Estoy a tu disposición!",
+          "¡Saludos! Soy un asistente virtual de AiMara, y mi propósito es facilitarte toda la información relevante sobre los requisitos y procesos para obtener el Grado Académico de Bachiller y el Título Profesional en las distintas Escuelas Profesionales de la Universidad Nacional de Moquegua. \n \n Mi objetivo es proporcionarte respuestas precisas y actualizadas conforme a las regulaciones vigentes.",
+          "Bienvenido/a. Soy un chatbot diseñado para asistirte en todo lo relacionado con los procedimientos para obtener el Grado Académico de Bachiller y el Título Profesional en la Universidad Nacional de Moquegua. \n \n Mi labor consiste en ofrecerte orientación sobre los requisitos y criterios establecidos por la normativa universitaria.",
+          "Hola, soy tu compañero virtual de AiMara. Estoy aquí para ofrecerte toda la información necesaria acerca de los pasos a seguir para obtener el Grado Académico de Bachiller y el Título Profesional en las diversas Escuelas Profesionales de la Universidad Nacional de Moquegua. \n \n Puedes contar conmigo para resolver tus inquietudes y guiarte en este proceso académico.",
+          "Saludos, soy un asistente virtual de AiMara y estoy aquí para proporcionarte toda la información relevante sobre cómo obtener el Grado Académico de Bachiller y el Título Profesional en la Universidad Nacional de Moquegua. \n \n Mi objetivo es ofrecerte respuestas claras y concisas de acuerdo con las normativas actuales, para que puedas avanzar en tu trayectoria académica con confianza."
+         ]
+      },
+      {
+        "tag": "Artículo 5 Bachillerato automático",
+        "patterns": [
+          "A partir de qué año se aplica el bachillerato automático",
+          "Si soy estudiante ingresante en el 2022, ¿accedo al bachillerato automático",
+          "Qué debo hacer para obtener el grado de bachiller de forma automática",
+          "grado académico de bachiller",
+          "grado académico de bachiller automático",
+          "grado académico de bachiller automática",
+          "acceden en forma automática a la obtención del grado académico de bachiller automático",
+          "quienes son exonerados grado académico de bachiller automático",
+          "como se acceder al bachillerato automático",
+          "quiero mi bachiller automático",
+          "desde que año acceden a bachillerato automático",
+          "ingresantes de que año acceden al bachillerato automático",
+          "bachillerato automático",
+          "grado académico de bachiller automático",
+          "bachiller de forma automática",
+          "obtención del grado bachiller de forma automática",
+          "acceden en forma automática a bachiller",
+          "grado academico bachiller automático",
+          "si ingrese el en 2020 tengo bachillerato automatico?",
+          "como se que tengo bachiller automatico?",
+          "si ingrese el en 2021, 2022, 2023 tengo bachillerato automatico?",
+          "que años corresponde el bachiller automatico",
+          "si egreso en 2023 tengo bachiller automatico?",
+          "si egreso en el 2023 tengo bachiller automatico?"
+
+        ],
+        "responses": [
+          "La Universidad Nacional de Moquegua, excepcionalmente, otorga el grado académico de bachiller, en forma automática, en los siguientes casos: \n \n (A) A los estudiantes que hayan aprobado los estudios de pregrado en las escuelas profesionales de la Universidad, durante los años 2020, 2021, 2022 y 2023, accediendo a su solicitud y en forma automática a la obtención del grado, exonerándoseles de los requisitos establecidos en el numeral 45.1 del artículo 45º de la ley No 30220, Ley Universitaria: \n \n (B) Los estudiantes que iniciaron sus estudios antes del 31 de diciembre del 2015, en la Universidad, acceden en forma automática a la obtención del grado, no estando comprendidos en el artículo 45º de la Ley No 30220, Ley Universitaria."
+        ]
+      },
+      {
+        "tag": "Artículo 6 p1 Del Trabajo de Investigación",
+        "patterns": [
+          "Desde qué ciclo o semestre puede un estudiante solicitar la designación de un docente asesor para su trabajo de investigación",
+          "Cuánto tiempo tiene el jurado para evaluar el informe del trabajo de investigación",
+          "Cuantos estudiantes pueden trabajar en un mismo trabajo de investigación para el bachillerato",
+          "modalidades de obtencion de bachillerato",
+          "tesis de bachiller", "tesis de bachillerato",
+          "trabajo de investigación de bachillerato",
+          "cuantos pueden hacer trabajo de investigación de bachillerato",
+          "lineas de investigación para trabajo de bachillerato",
+          "hacer tesis para bachillerato",
+          "articulo científica para obtener bachiller",
+          "realizar trabajo de investigación de bachillerato",
+          "en que consiste la tesis de bachiller?"
+        ],
+        "responses": [
+          "Del Trabajo de Investigación Corresponde a las Escuelas Profesionales determinar los parámetros en el desarrollo del trabajo de investigación para optar el Grado Académico de Bachiller. Para ello se tendrá en cuenta los siguientes aspectos: \n \n a. Trabajo de Investigación. – Es una modalidad de obtención del grado académico que implica el proceso de generación de conocimiento en un determinado campo de estudio. Puede ser individual o grupal, dos (02) integrantes como máximo, es de carácter público, y como tal, está sujeto a debate. Supone rigurosidad y objetividad. Tiene un propósito claramente definido, ya que responde a una pregunta de investigación, se apoya en conocimiento existente, aplica una metodología determinada, aporta evidencia verificable, proporciona explicaciones objetivas y racionales, y mantiene un espíritu autocrítico. \n \n b. Naturaleza del Trabajo de Investigación. - Para efectos de la obtención del Grado Académico de Bachiller, el trabajo de investigación abordará, a su elección, un tema de acuerdo a las líneas de investigación definidas para cada Escuela Profesional. Cuya naturaleza de estudio sea cualitativa, cuantitativa o mixta. \n \n El trabajo de investigación que el egresado elija para realizar, puede ser un artículo científico aceptado en una revista académica o científica, un análisis de un tema o tópico, un estudio de preinversión a nivel de perfil, un plan de negocios, un estudio de desarrollo sostenible, entre otros, que la Escuela Profesional estime por conveniente, de acuerdo a la naturaleza de la carrera respectiva."
+        ]
+      },
+      {
+        "tag": "Artículo 6 p2 Del Trabajo de Investigación",
+        "patterns": [
+          "solicitar la designación de un docente para el asesoramiento Plan del Trabajo de Investigación",
+          "revisión y ejecución del Plan del Trabajo de Investigación",
+          "designación de un docente para el asesoramiento Plan del Trabajo de Investigación",
+          "revisión y ejecución del Plan del Trabajo de Investigación del egresado",
+          "egresados solicitar designación de un docente para el asesoramiento Plan del Trabajo de Investigación",
+          "desde que ciclo puedo solicitar la designación de un docente para el asesoramiento Plan del Trabajo de Investigación",
+          "desde que semestre puedo solicitar la designación de un docente para el asesoramiento Plan del Trabajo de Investigación",
+          "proyecto de tesis de bachillerato",
+          "culminado el Plan de Trabajo de Investigación de bachillerato",
+          "estudiante o egresado elaborará un Plan de Trabajo de Investigación",
+          "Jurado evaluará el Informe del Trabajo de Investigación en un plazo",
+          "podrá volver a presentar el trabajo de investigación con las subsanaciones realizadas",
+          "evaluación del Trabajo de Investigación es favorable",
+          "Constancia de Aprobación del Trabajo de Investigación presentado por el egresado",
+          "trabajos de investigación aprobados en las Escuelas Profesionales",
+          "como realizo el trabajo de investigacion de bachillerato?"
+        ],
+        "responses": [
+          " 1: Los estudiantes, a partir del séptimo ciclo, podrán solicitar la designación de un docente para el asesoramiento, revisión y ejecución del Plan del Trabajo de Investigación: \n \n 2: Los egresados podrán solicitar la designación de un docente para el asesoramiento, revisión y ejecución del Plan del Trabajo de Investigación:  \n \n 3: El estudiante o egresado presentará a la Escuela Profesional una solicitud de inscripción del tema elegido en el registro físico y/o virtual, cuya vigencia tendrá una duración máxima de dos años: \n \n 4: El asesor del proyecto será designado por el Director de Investigación de la Escuela Profesional o quien haga sus veces, a propuesta del estudiante o egresado, de acuerdo a la naturaleza del trabajo, pudiendo ser docente ordinario o contratado de la Escuela Profesional o de otra Escuela Profesional de acuerdo al perfil profesional del docente y la línea de investigación a desarrollarse: Excepcionalmente, en caso que el estudiante o egresado no proponga a su asesor, este será designado por el director de escuela: \n \n 5: El estudiante o egresado elaborará un Plan de Trabajo de Investigación cuya estructura incluya el título, la justificación, los objetivos, alcance del trabajo, la metodología empleada y los resultados obtenidos, y presentará a la Escuela Profesional respectiva: \n \n 6: Una vez culminado el Plan de Trabajo de Investigación, con el visto bueno de su asesor, el estudiante o egresado presentará con una carta, el Plan de Trabajo de Investigación al Director de la Escuela Profesional, quien designará al jurado revisor, conformado por tres docentes, siendo uno de ellos docente ordinario, para su evaluación y aprobación respectiva: \n \n 7: El Informe del Trabajo de Investigación será presentado con el visto bueno del asesor, en digital o un ejemplar anillado, solicitando su evaluación y aprobación por parte de los miembros del Jurado: \n \n 8: El Director de la Escuela Profesional, dentro de los dos (2) días hábiles siguientes a la presentación del Informe del Trabajo de Investigación, deberá proponer la designación del Jurado, que estará conformado por tres (3) docentes, uno de los cuales deberá ser obligatoriamente un docente ordinario: \n \n 9: El Jurado evaluará el Informe del Trabajo de Investigación en un plazo no mayor a diez (10) días hábiles desde su designación: Uno de los miembros del Jurado, debido a un conflicto de intereses, podrá ser cambiado a petición del estudiante o egresado en cualquiera de las etapas del proceso: \n \n 10: El Jurado podrá estar integrado por un docente de otra Escuela Profesional considerando el tema del Trabajo de Investigación: \n \n 11: El Jurado será presidido por un docente ordinario, de mayor categoría y antigüedad: \n \n 12: Se comunicará al interesado el resultado de la evaluación: Si el Trabajo de Investigación tuviera observaciones, estas deberán ser subsanadas en un plazo no mayor de dos (2) meses: El egresado podrá volver a presentar el trabajo de investigación con las subsanaciones realizadas, u optar por un nuevo tema de investigación: En el caso de no levantar las observaciones del trabajo de investigación en el plazo establecido, será declarado improcedente: Las observaciones tienen un solo momento: \n \n 13: Si la evaluación del Trabajo de Investigación es favorable, el Jurado aprobará por unanimidad o mayoría dicho trabajo y la calificación será según la siguiente escala de evaluación: \n - Aprobado Excelente : de diecisiete (17) a veinte (20): \n - Aprobado : de once (11) a dieciséis (16) \n - Desaprobado : de cero (0) a diez (10) \n \n 14: El Director de la Escuela Profesional procederá a emitir la Constancia de Aprobación del Trabajo de Investigación presentado por el egresado, quedando éste habilitado para iniciar el trámite de obtención del Grado Académico de Bachiller: \n \n 15: Los trabajos de investigación aprobados en las Escuelas Profesionales pueden acceder a las convocatorias para financiamiento de proyectos de investigación para estudiantes y egresados realizados por el Vicerrectorado de Investigación de acuerdo a disponibilidad presupuestal"
+        ]
+      },
+      {
+        "tag": "Artículo 7 Procedimiento y Trámite",
+        "patterns": [
+          "Que documentos debo presentar para iniciar el trámite de obtención del grado de bachiller",
+          "Que nivel de inglés se requiere para obtener el grado de bachiller",
+          "tramite obtener el Grado Académico académico de bachiller",
+          "tramitar mi Grado académico de bachiller trámite presentando en su Escuela Profesional",
+          "requisitos para tramitar el grado académico bachiller",
+          "procedimientos y tramite de bachillerato requisitos",
+          "requisitos procedimiento y tramite de bachiller",
+          "procedimiento y tramite de requisitos para grado academico bachiller",
+          "que requisitos necesito tramitar mi bachiller",
+          "cuales son los requisitos para obtener bachiller",
+          "Cual es el tamño de fotografia para bachiller",
+          "que nivel de ingles es necesario para bachiller?",
+          "para bachiller que nivel de ingles en necesario?",
+          "para bachiller es que idioma es necesario?",
+          "¿Cuáles son los requisitos específicos para tramitar el grado académico de bachiller?",
+          "¿Cuál es el tamaño y las especificaciones de las fotografías que se deben presentar para el trámite de bachiller?"
+        ],
+        "responses": [
+          "Para obtener el Grado Académico, el egresado deberá iniciar el trámite presentando en su Escuela Profesional: \n \n  a: Solicitud dirigida al Director de la Escuela Profesional o quien haga sus veces, indicando la fecha y numero de comprobante de pago \n \n  b: Dos (02) fotografías de frente, tamaño pasaporte, a color, con traje formal y fondo blanco: garantizando de esta forma la seguridad ciudadana: \n \n  La Dirección de Actividades y Servicios Académicos es la responsable de completar el expediente del egresado junto con las Escuela Profesional, en un plazo máximo de 7 días hábiles para su trámite correspondiente, con los siguientes documentos: \n \n  a: Constancia de Prácticas Preprofesionales expedido por el Director de la Escuela Profesional respectiva: \n \n  b: Certificado de estudios del idioma inglés o lengua nativa, nivel intermedio, expedido por el Centro de Idiomas de la Universidad Nacional de Moquegua o rendir el examen de suficiencia correspondiente en el Centro de Idiomas de la Universidad Nacional de Moquegua en caso de haber estudiado en otra institución: \n \n  c: Certificado de Estudios originales, debiendo acreditar el número de créditos exigidos por su Escuela Profesional: \n \n  d: Constancia de haber realizado Actividades Cocurriculares, expedida por la Dirección de Bienestar Universitario y la Dirección Proyección Social y Extensión Universitaria: \n \n  e: Constancia de (no adeudo) de Bienes a la Universidad, bienes a los Laboratorios Básicos y de Especialidad, material Bibliográfico; dichos documentos deberán ser refrendados por los responsables a cargo: \n \n  f: Copia simple de la Constancia de Egresado: \n \n  g: Copia simple de la Constancia de Inicio de Matrícula: \n \n  La Dirección de Actividades y Servicios Académicos, previa verificación, deriva el expediente a la Oficina de Secretaría General para su trámite correspondiente."
+        ]
+      },
+      {
+        "tag": "Artículo 8 Del trámite",
+        "patterns": [
+          "Cual es el proceso que sigue mi expediente desde que lo presento en la Escuela Profesional hasta que me entregan el Diploma de Bachiller",
+          "Quienes son las autoridades que intervienen en la aprobación y emisión de mi Grado Académico de Bachiller y cuáles son sus roles",
+          "Aprobación de Grado Académico de Bachiller",
+          "quien aprueba el grado académico de bachiller",
+          "aprobar el tramite de grado académico bachiller aprobado",
+          "Emisión de Resolución y Registro del Grado Académico de Bachiller Aprobado", "como se aprueba el grado académico de bachiller",
+          "Rúbricas en el Diploma de Bachiller aprobado",
+          "firma en el Diploma de Bachiller aprobado", "quienes firman el grado académico de bachiller"
+        ],
+        "responses": [
+          "Artículo 8°.- Del trámite \n La Oficina de Secretaría General elevará el expediente a la Presidencia de la Comisión Organizadora para su tratamiento en la agenda de Sesión de Comisión Organizadora: \n Artículo 9°.- Aprobación de Grado Académico de Bachiller  \n La Comisión Organizadora aprueba y autoriza conferir al egresado, el Grado Académico de Bachiller: \n Artículo 10°.- Emisión de Resolución y Registro del Grado Académico de Bachiller \n La Oficina de Secretaría General emitirá la Resolución respectiva, expedirá y registrará en el Libro correspondiente, el Diploma de Grado de Bachiller: \n Artículo 11°.- Rúbricas en el Diploma de Bachiller \n El Diploma de Bachiller será rubricado por el Presidente de la Comisión Organizadora, el Secretario General, el Director de la Escuela Profesional y el Graduado."
+        ]
+      },
+      {
+        "tag": "Artículo 12 Ceremonia de entrega de Diplomas de Bachiller",
+        "patterns": [
+          
+          "Habra una ceremonia de graduación para entregar los diplomas de bachiller",
+          "Donde se será la ceremonia de entrega de diplomas",
+          "La ceremonia de colacion será presencial o virtual",
+          "cuando es al colacion de grado académico de bachiller",
+          "Ceremonia de graduacion de grado académico de bachiller",
+          "Ceremonia de colacion",
+          "ceremonia de entrega de grado académico de bachiller",
+          "donde sera la Ceremonia el grado académico de bachiller",
+          "como se organiza la Ceremonia de entrega de Diplomas de Bachiller",
+          "Quienes son los encargados de organizar y llevar a cabo la Ceremonia de entrega de Diplomas de Bachiller?"
+        ],
+        "responses": [
+          "La Oficina de Secretaría General en coordinación con la Oficina de Imagen Institucional, organizarán la Ceremonia presencial y/o virtual para la entrega oficial de Diplomas de Bachiller."
+        ]
+      },
+      {
+        "tag": "Artículo 13 Del Título Profesional",
+        "patterns": [
+          "cuales son las modalidades de obtencion de titulo profesional",
+          "titulo profecional",
+          "que necesito para obtener mi titulo",
+          "obtener el titulo profesional",
+          "como puedo obtener mi titulo profesional",
+          "como sacar mi titulo profesional",
+          "cuales son las formas de obtener el titulo profesional",
+          "cuales son las maneras de obtener el titulo profesional",
+          "como optar el titulo profesional",
+          "¿Cuáles son las modalidades para obtener el título profesional?",
+          "¿Qué requisitos debo cumplir para sacar mi título profesional?",
+          "¿Puedo obtener el título profesional si estudié en otra universidad?"
+        ],
+        "responses": [
+          "La Universidad Nacional de Moquegua otorga el Título Profesional a quienes han obtenido el Grado Académico de Bachiller en la misma universidad o en una universidad de licencia denegada: \n Para obtener el Título Profesional, los Bachilleres pueden optar por una de las siguientes modalidades de titulación: \n a: Presentación, sustentación y aprobación de una Tesis: \n b: Presentación, sustentación y aprobación de un Trabajo de Suficiencia Profesional, el mismo que estará sustentado en la experiencia mínima de dos (2) años consecutivos o acumulativos en el ejercicio de labores vinculadas a la Carrera Profesional, después de haber obtenido el Grado Académico de Bachiller: \n c: Examen profesional; Aprobando el examen cuyas áreas y materias fije cada escuela profesional: \n d: Otras modalidades que sean otorgadas por Ley o normas reglamentarias."
+        ]
+      },
+      {
+        "tag": "Artículo 15 Concepto de Proyecto de Tesis",
+        "patterns": [
+          "que es un proyecto de tesis",
+          "que es un modalidad de proyecto de tesis",
+          "modalidades de obtencion de proyecto de tesis",
+          "proyectos de tesis para titulo profesional",
+          "proyectos de tesis para el titulo profesional",
+          "como es un proyecto de tesis para titulo profesional",
+          "definicion de un proyecto de tesis",
+          " Concepto de Proyecto de tesis para obtención de titulo profesional",
+          "¿Qué es un proyecto de tesis?",
+          "¿Desde qué año se puede presentar un proyecto de tesis?",
+          "¿El tema del proyecto debe estar relacionado con la carrera?"
+         
+        ],
+        "responses": [
+          "El Proyecto de Tesis es el plan de un trabajo de investigación, individual o en pares, cuya finalidad es resolver un problema objeto de estudio: Dicho documento deberá ser presentado a la Dirección de la Escuela Profesional, por los estudiantes del último año académico, egresados o bachilleres: \n El problema objeto de estudio que aborde el Proyecto de Tesis debe concordar con las líneas, programas y áreas de investigación de la Escuela Profesional: Además, debe estar relacionado al conocimiento y solución de los problemas que se presentan en la realidad local, regional, nacional y/o internacional."
+        ]
+      },
+      {
+        "tag": "Artículo 18 Asesor del Proyecto de Tesis",
+        "patterns": [
+          "asesor del proyecto de tesis para titulacion",
+          "Designación del Asesor del Proyecto de Tesis",
+          "El asesor del Proyecto de Tesis",
+          "Coasesor de proyecto de tesis",
+          "Coautores del proyecto de tesis",
+          "quiero asesor de tesis", "asignacion de asesor de proyecto de tesis", "coasesor de Proyecto de tesis",
+          "co asesor de proyecto de tesis",
+          "asesoria de proyecto de tesis",
+          "quien asigna el asesor de Tesis",
+          "¿Quién asigna al asesor del proyecto de tesis?",
+          "¿Puedo elegir a mi asesor de tesis?",
+          "¿El asesor puede ser un docente de otra escuela profesional?",
+          "¿A quién debo presentar la solicitud del proyecto de tesis?",
+          "¿El asesor debe firmar algún documento para la solicitud?"
+        ],
+        "responses": [
+          "El Director de la Escuela Profesional designará al Asesor del Proyecto de Tesis a propuesta del interesado: En caso que el interesado no proponga a su asesor, este será determinado por el Director de la Escuela Profesional: \n Todo proyecto de Tesis debe tener un Asesor Principal, el cual podrá ser un docente ordinario o contratado de la Escuela Profesional o de otra Escuela Profesional de la Universidad Nacional de Moquegua: \n Si la investigación tuviera carácter multidisciplinario o por la naturaleza de la investigación, el tesista podrá solicitar un Coasesor a un docente contratado de las diferentes Escuelas Profesionales de la Universidad Nacional de Moquegua; o un profesional externo: \n El asesor y coasesor son coautores del Proyecto de Tesis: En tal condición, guían, asisten, asesoran y supervisan la ejecución del proyecto, por tanto, tienen responsabilidad sobre el Proyecto de Tesis."
+        ]
+      },
+      {
+        "tag": "Artículo 22 Solicitud al Director de Escuela",
+        "patterns": [
+          "inscripción de prooyecto de tesis",
+          "presentacion de proyecto de tesis",
+          "registro de proyecto de tesis",
+          "tramite de proyecto de tesis",
+          "presentacion de proyecto de tesis",
+          "solicitud de presentado proyecto de tesis",
+          "Aprobación de prooyecto de tesis",
+          "¿A quién debo presentar la solicitud del proyecto de tesis?",
+          "¿El asesor debe firmar algún documento para la solicitud?"
+        ],
+        "responses": [
+          "El tesista deberá presentar una solicitud impresa y/o digital al Director de la Escuela Profesional, adjuntando un ejemplar impreso y digital editable del Proyecto con el informe escrito y firmado en impreso y digital por el Asesor Principal de Tesis, indicando que el Proyecto está terminado y se avala su calidad científica y académica, adjuntando el reporte con un mínimo de 70% de originalidad del proyecto."
+        ]
+      },
+      {
+        "tag": "Artículo 23 Designación del Jurado del Proyecto de Tesis",
+        "patterns": [
+          "Designación del Jurado del Proyecto de proyecto de Tesis",
+          "quienes pueden ser mi jurado de proyecto de tesis",
+          "jurado de tesis proyecto de tesis",
+          "designacion del jurado de proyecto de tesis",
+          "jurados de proyecto de tesis",
+          "como esta conformado el jurado de proyecto de tesis",
+          "jurado de tesis proyecto",
+          "plazo para designación de jurado de proyecto de tesis",
+          "dias habiles para asignacion de jurado de tesis",
+          "cuando dias tiene para asignacion de jurado de tesis",
+          "¿Quién designa al jurado del proyecto de tesis?",
+          "¿Se puede pedir el cambio de un miembro del jurado?"
+        ],
+        "responses": [
+          "En un lapso no mayor de tres (3) días hábiles, a partir de la fecha de la presentación de la solicitud, el Director de Escuela Profesional designa a los miembros del Jurado del Proyecto de Tesis: En cualquiera de las etapas del proceso por un conflicto de intereses, previo sustento respectivo, el estudiante o egresado podrá pedir el cambio de uno de los jurados, de ser así, el Director de la Escuela Profesional procederá a reemplazarlo por otro docente."
+        ]
+      },
+      {
+        "tag": "Artículo 24 Composición del Jurado dictaminador",
+        "patterns": [
+          "cuantos confriman un jurado de tesis",
+          "cuantos titula conforman un jurado de tesis",
+          "cuanto tiempo tiene el jurado de tesis para dictaminar la tesis",
+          "urado Dictaminador estará integrado",
+          "miembros del jurado dictaminador de tesis",
+          "cuantos conforman un jurado de tesis",
+          "Composición de jurado de tesis",
+          "preside el jurado de tesis",
+          "Presidencia de jurado de tesis", "presidente de jurado",
+          "presidente de los jurados",
+          "lider de jurado de tesis",
+          "Impedimento para ser jurado de tesis",
+          "no puede ser jurado de tesis",
+          "restricción para ser jurado de tesis",
+          "Inhabilitación como jurado de tesis", 
+          "Limitación para ejercer como jurado de tesis", 
+          "Veto para actuar como jurado de tesis", 
+          "Prohibido para ser jurado de tesis", 
+          "Exclusión como jurado de tesis", 
+          "Impedimento para formar parte del jurado de tesis",
+          "no ser jurado de tesis",
+          "no puede ser jurado de tesis",
+          "nominación Jurado del Proyecto de Tesis",
+          "asigancion de Jurado del Proyecto de Tesis",
+          "obligacion de se jurado de proyecto de tesis", 
+          "negativa a ser Jurado del Proyecto de Tesis",
+          "profesor no quiere ser jurado de proyecto de tesis",
+          "docente no quiere ser jurado de tesis",
+          "negacion a ser jurado de proyecto de tesis",
+          "negativa de ser jurado de proyecto de tesis",
+          "nombramiento como jurado de proyecto de tesis",
+          "no jurado de proyectos de tesis",
+          "justificación para no ser jurado de proyecto de tesis",
+          "¿Cuántos miembros conforman el jurado dictaminador?",
+          "¿Pueden ser parte del jurado docentes de otras escuelas?",
+          "¿Quién preside el jurado dictaminador?"
+        ],
+        "responses": [
+          "Composición del Jurado dictaminador \n \n El Jurado Dictaminador estará integrado por tres miembros titulares y un miembro accesitario. La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto. \n \n Presidencia del Jurado \n \n De los tres miembros designados, el docente ordinario de mayor categoría, Grado Académico y antigüedad asume la Presidencia del Jurado y los otros dos conforman el primer y segundo miembro bajo los mismos criterios de prelación ya mencionados. \n \n Intervención de Docente Ordinario de otra Escuela \n \n Si el tema presentado en el Proyecto de Tesis, requiere de la intervención de un docente ordinario de otra Escuela Profesional, el Director de la Escuela Profesional lo solicitará de oficio. \n \n Impedimento para ser miembro del Jurado \n \n No podrán ser miembros del Jurado del Proyecto: \n \n a. El Presidente y los Vicepresidentes de la Comisión Organizadora de la Universidad Nacional de Moquegua. \n \n b. Los docentes que estén con licencia sindical, por estudios, año sabático y otros. \n \n c. Los docentes que tengan parentesco hasta el cuarto grado de consanguinidad y segundo de afinidad con el interesado y entre los miembros del jurado. \n \n De la nominación como Jurado del Proyecto de Tesis \n \n Esta nominación constituye una obligación como parte de la labor No Lectiva del docente, y solo se admite la negativa por razones justificadas y presentadas mediante documento, caso contrario, se registrará como antecedente negativo para fines de promoción o ratificación."
+        ]
+      },
+      {
+        "tag": "Artículo 29 Dictamen y presencia de Jurado del Proyecto de Tesis", 
+        "patterns": [
+          "plazo para dictamen de proyecto de tesis",
+          "dias habiles para dictamen de proyecto de tesis",
+          "presidente del jurado de proyecto de tesis",
+          "citacion de jurado de proyecto de tesis",
+          "citacion de jurados de proyecto de tesis",
+          "convocatoria de jurado dictaminador de proyecto de tesis",
+          "presidente del jurado",
+          "presidente de proyecto de tesis",
+          "jurado dictaminador de proyecto de tesis",
+          "citacion de jurado dictaminador para dictamen de tesis",
+          "dictaminador de proyecto de tesis",
+          "dictam de proyecto de tesis por los jurados",
+          "segunda convocatoria de jurado dictaminador de proyecto de tesis",
+          "segunda citacion de jurado dictaminador",
+          "¿Cuánto tiempo tiene el jurado para emitir el dictamen del proyecto de tesis?",
+          "¿Puede estar presente el asesor en la revisión del proyecto de tesis?",
+          "¿Qué pasa si el jurado no se reúne en la fecha programada?"
+          
+        ],
+        "responses": [
+          "Dictamen y presencia de Jurado del Proyecto de Tesis \n \n Para el dictamen es obligatorio la participación de los miembros del Jurado en pleno, el Presidente y los dos miembros titulares del jurado respectivamente, así como del miembro accesitario, pudiendo estar presentes el asesor del Proyecto de Tesis y el interesado. \n \n Los miembros del Jurado serán notificados de la designación por la Escuela Profesional, el Presidente del Jurado tendrá diez (10) días hábiles para convocar a los demás miembros de jurado. \n \n El Jurado en el plazo máximo de diez (10) días hábiles emite el dictamen de Tesis, caso contrario, y si no hubiera justificación alguna, el director procede de oficio al cambio del jurado o alguno de sus miembros. \n \n Citación a Jurado \n \n Para revisar el Proyecto de Tesis y emitir el dictamen del proyecto, el Presidente del Jurado, previa coordinación, debe citar por memorando o por correo electrónico a los miembros del Jurado dictaminador, fijando lugar, día, hora con dos (02) días de anticipación incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto. Todo esto debe realizarse en el Campus Universitario o a través de plataformas virtuales oficiales con que cuente la universidad. \n \n Artículo 31°.- Segunda Convocatoria a Jurado Dictaminador \n \n De no reunirse todos los miembros del Jurado dictaminador, se procederá a una segunda convocatoria, a los dos días hábiles siguientes de la primera convocatoria. En caso de no estar presente el pleno del jurado se incluirá la participación del accesitario, y podrá dictaminarse con la participación de dos de sus integrantes."
+        ]
+      },
+      {
+        "tag": "Artículo 32 Declaración de apto, no apto o improcedente en el dictamen",
+        "patterns": [
+          "el Proyecto puede ser declarado apto",
+          "no apto o improcedente de proyecto de tesis",
+          "cuando se evidencie plagio en al proyecto de tesis",
+          "declarado no apto con observaciones el proyecto de Tesis",
+          "proyecto de tesis no apto con observaciones",
+          "Jurado podrá declarar improcedente el Proyecto de Tesis",
+          "resultados posibles dictamen Proyecto de Tesis",
+          "dictamen declarar Proyecto de proyecto de Tesis apto",
+          "dictamen declarar Proyecto de proyecto de Tesis no apto",
+          "dictamen declarar Proyecto de proyecto de Tesis improcedente",
+          "plazo de entrega de observaciones de proyecto de proyecto de tesis",
+          "devolver Proyecto de Tesis con observaciones",
+          "declarar plagio en Proyecto de Tesis",
+          "observaciones Jurado Proyecto de Tesis por escrito",
+          "plazo entrega observaciones Jurado Proyecto de Tesis",
+          "firmas requeridas observaciones Jurado Proyecto de Tesis",
+          "entrega observaciones Jurado Proyecto de Tesis al tesista",
+          "entrega observaciones Jurado Proyecto de Tesis de forma digital",
+          "nuevas observaciones Jurado tras correcciones tesista",
+          "observaciones definitivas Jurado Proyecto de Tesis",
+          "plazo correcciones tesista tras observaciones", 
+          "presentación correcciones observaciones Jurado Proyecto de Tesis",
+          "declarar abandono por incumplimiento correcciones",
+          "prórroga para correcciones tras observaciones Jurado",
+          "Las observaciones deben ser subsanadas por el tesista en un plazo",
+          "el tesista tiene cuantos dias para elevantar las observaciones",
+          "cuanto tiempo tiene para subsanar las observaciones del proyecto de Tesis",
+          "revisar el levantamiento de las observaciones del poryecto de tesis",
+          "tesis corregido para dictamen de proyecto de tesis",
+          "dictamen final de proyecto de tesis",
+          "¿Qué opciones tiene el jurado al dictaminar el proyecto de tesis?",
+          "¿Cuándo se declara un proyecto de tesis como improcedente?",
+          "Si el proyecto es declarado no apto, ¿cuánto tiempo tengo para subsanar las observaciones?"
+        ],
+        "responses": [
+          "Durante el proceso de dictamen, el Proyecto puede ser declarado apto, no apto o improcedente. En caso de ser declarado apto, debe ser comunicado al Director de la Escuela Profesional. En caso de ser declarado no apto con observaciones, será devuelto al tesista con las observaciones correspondientes para su subsanación. El Jurado podrá declarar improcedente el Proyecto de Tesis si se detectaran inconsistencias graves en el mismo, también cuando se evidencie plagio. Siendo así, el Proyecto será devuelto al tesista y se realizarán las acciones correspondientes. \n \n En caso de que el Jurado declare no apto con observaciones el Proyecto de Tesis, dichas observaciones deberán ser entregadas por escrito al tesista y/o en el documento digital editable del proyecto, dentro de los dos (02) días hábiles siguientes al dictamen, en un documento debidamente firmado por los tres miembros del Jurado para su respectiva subsanación. El Jurado, una vez presentado el Proyecto de Tesis corregido, no deberá formular nuevas observaciones. \n \n Las observaciones deben ser subsanadas por el tesista en un plazo no mayor de treinta (30) días desde su recepción, debiendo presentar el levantamiento de las mismas en versión digital ante el Director de la Escuela Profesional, con el visto bueno del Asesor. En caso que el tesista no presente el levantamiento de observaciones dentro del plazo requerido, será declarado en abandono. \n \n El Presidente del Jurado citará a los cuatro (4) miembros del mismo, a una nueva reunión para verificar el levantamiento de las observaciones realizadas, dentro de los siete (7) días hábiles de presentado el Proyecto de Tesis corregido. El Jurado emitirá el informe respectivo al Director de la Escuela Profesional. \n \n La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto."
+        ]
+      },
+      {
+        "tag": "Artículo 36 Procedimiento de Proyecto de tesis declarado apto",
+        "patterns": [
+          "procedimiento tras aprobar Proyecto de Tesis",
+          "resolución aprobación Proyecto de Tesis",
+          "inscripción Proyecto de Tesis en registro", 
+          "comunicación aprobación Proyecto de Tesis al tesista",
+          "comunicado aprobación Proyecto de Tesis al tesista",
+          "fecha inicio ejecución Proyecto de Tesis aprobado",
+          "fecha fin ejecución Proyecto de Tesis aprobado",
+          "vencimiento plazo ejecución Proyecto de Tesis aprobado",
+          "la inscripción de Tesis aprobado será comunicado por correo electrónico al tesista",
+          "¿Qué pasa después de que el proyecto de tesis es declarado apto?",
+          "¿Quién me comunicará que mi proyecto fue aprobado?",
+          "¿Hasta cuándo tengo tiempo para ejecutar el proyecto aprobado?"
+        ],
+        "responses": [
+          "Declarado apto el Proyecto de Tesis, el Director de la Escuela Profesional solicita al Coordinador de Facultad la emisión de la resolución de aprobación del Proyecto de Tesis, emitida la resolución se procede a la inscripción del Proyecto de Tesis en el Registro de Trabajos de Tesis de la Escuela Profesional, la misma que será comunicada por correo electrónico al tesista, precisando la fecha de inscripción, el inicio y vencimiento de su ejecución."
+        ]
+      },
+      {
+        "tag": "Artículo 37 Plazo de ejecución de la Tesis", 
+        "patterns": [
+          "plazo ejecución tesis después de aprobación",
+          "duración máxima ejecución tesis", 
+          "solicitar ampliación plazo ejecución tesis",
+          "consecuencia exceder plazo máximo ejecución tesis ",
+          "anulación automática registro tesis por exceso plazo", 
+          "presentar nuevo proyecto tesis tras anulación",
+          "solicitar aampliacion de ejecución de tesis",
+          "cuantos tiempo tengo para ejecutar mi tesis",
+          "plazo ejecución de tesis",
+          "Período de realización de la tesis",
+          "Tiempo asignado para ejecutar la tesis",
+          "Fecha límite para la ejecucion de la tesis",
+          "Duración del proyecto de tesis",
+          "Plazo para llevar a cabo la investigación de tesis",
+          "¿Cuál es el plazo máximo para ejecutar y presentar la tesis?",
+          "¿Se puede solicitar una ampliación del plazo de ejecución?",
+          "¿Qué sucede si no presento la tesis en el plazo establecido?"
+        ],
+        "responses": [
+          "El tesista dispone de un plazo máximo de veinticuatro (24) meses para la ejecución y presentación del trabajo de Tesis, a partir de la fecha de aprobación del Proyecto. En casos justificados y dependiendo de la naturaleza de la investigación, el tesista podrá solicitar una ampliación hasta por tres (3) meses adicionales. Si la ejecución y sustentación del Proyecto de Tesis no se ajusta al plazo máximo, el Proyecto será anulado automáticamente en el registro de inscripción, debiendo presentar el tesista otro proyecto."
+        ]
+      },
+      {
+        "tag": "Artículo 38 Nuevo Proyecto en caso de anulación",
+        "patterns": [
+          "anulación del proyecto de tesis por incumplimiento del plazo ejecucion de proyecto de tesis",
+          "anulación del proyecto de tesis por incumplimiento del plazo ejecucion tesis",
+          "anulación del proyecto de tesis por incumplir plazo de ejecucion de proyecto de tesis",
+          "incumplimiento del plazo ejecucion de proyecto de tesis",
+          "nuevo Proyecto de tesis en caso de anulación de proyecto de tesis",
+          "nuevo Proyecto de tesis en caso de anulación por incumplimiento de plazo",
+          "no cumplo con plazo de ejecucion de tesis",
+          "tesis no conluida en el plazo de ejecucion de tesis",
+          "¿Tengo que iniciar todo el proceso desde el inicio?",
+          "¿Puedo retomar el mismo tema si presento un nuevo proyecto?",
+          "Si se anula mi proyecto de tesis por vencer el plazo, ¿qué debo hacer?"
+        ],
+        "responses": [
+          "En caso de anulación del Proyecto de Tesis por incumplimiento del plazo, el tesista debe presentar un nuevo proyecto e iniciar todo el procedimiento."
+        ]
+      },
+      {
+        "tag": "Artículo 39 Solicitud de trámite dictamen de proyecto de tesis",
+        "patterns": [
+          "tramite del dictamen de la proyecto de Tesis final",
+          "solicito tramite del proyecto de tesis",
+          "Como inicio tramite de proyecto de tesis",
+          "como inicio tramite de la informe tesis final",
+          "a quien solicito tramite de informe de tesis final",
+          "como inscribo mis proyecto tesis",
+          "cuando se inscribe mi proyecto tesis",
+          "donde tramito mi tesis final",
+          "¿A quién debo presentar la solicitud para el dictamen de la tesis?",
+          "¿Qué documentos debo adjuntar con la solicitud?",
+          "¿El asesor debe dar su visto bueno antes de solicitar el dictamen?"
+        ],
+        "responses": [
+          "Para el dictamen de la Tesis, el tesista deberá presentar una solicitud digital dirigida al Director de la Escuela Profesional adjuntado la versión final en pdf y word editable, con el visto bueno del asesor avalando su calidad científica y académica."
+        ]
+      },
+      {
+        "tag": "Artículo 40 Modificación del Jurado de Tesis",
+        "patterns": [
+          "Se puede cambiar a un miembro del jurado de tesis",
+          "Cuales son las causales para solicitar el cambio de jurado",
+          "Quien aprueba el cambio de un miembro del jurado",
+          "cambio jurado tesis por ausencia o licencia",
+          "solicitud cambio jurado tesis por conflicto",
+          "evaluación solicitud cambio jurado tesis", 
+          "designar nuevo jurado tesis",
+          "criterios designación nuevo jurado tesis",
+          "acto resolutivo cambio jurado tesis",
+          "modificación conformación jurado tesis",
+          "solicitud cambio jurado tesis por tesista",
+          "motivos cambio jurado tesis por tesista ",
+          "conflicto de interés para cambio jurado tesis",
+          "impedimento revisión tesis causas cambio jurado", 
+          "aval asesor solicitud cambio jurado tesis",
+          "comunicación cambio jurado tesis al tesista",
+          "coordinación nuevo jurado tesis con tesista",
+          "procedimiento designación nuevo jurado tesis", 
+          "sustitución miembro jurado tesis",
+          "documento sustento cambio jurado tesis",
+          "emisión resolución cambio jurado tesis", 
+          "envío documentos cambio jurado tesis al decano",
+          "procedimiento formalización cambio jurado tesis",
+          "autoridad emite resolución cambio jurado tesis",
+          "instancia aprueba cambio conformación jurado tesis"
+        ],
+        "responses": [
+          "El Director de la Escuela Profesional podrá sustituir a los integrantes del Jurado, en el caso de ausencia o licencia de alguno de ellos. Por surgimiento de conflictos que imposibiliten la revisión de la Tesis, podrá ser sustituido uno de los miembros del Jurado, para lo cual el interesado debe presentar una solicitud dirigida al Director de la Escuela Profesional avalada por el asesor, quien previa evaluación del caso podrá designar un nuevo miembro de Jurado, por única vez, ajustándose a los criterios establecidos en el presente Reglamento. \n \n Por surgimiento de conflictos que imposibiliten la revisión de la Tesis, podrá ser sustituido uno de los miembros del Jurado, para lo cual el interesado debe presentar una solicitud dirigida al Director de la Escuela Profesional avalada por el asesor. \n \n En caso sea declarada procedente la solicitud de cambio de uno de los miembros del Jurado, el Director de Escuela comunicará por Escrito al interesado de dicho cambio a efecto de realizar las coordinaciones pertinentes al respecto. \n \n El Director de la Escuela Profesional remitirá la documentación sustentatoria de la modificación de la conformación del Jurado al Decano de Facultad o quien haga sus veces, para la correspondiente emisión del acto resolutivo."
+        ]
+      },
+      {
+        "tag": "Artículo 44 Plazo para emitir el dictamen",
+        "patterns": [
+          "plazo máximo emisión dictamen tesis",
+          "consecuencia incumplimiento plazo dictamen tesis",
+          "sanción retraso injustificado dictamen tesis",
+          "citación jurado para dictamen tesis",
+          "medio de citación a jurado dictamen tesis",
+          "contenido citación jurado dictamen tesis", 
+          "plazo mínimo citación jurado dictamen tesis",
+          "observadores en dictamen tesis", 
+          "sede dictamen tesis",
+          "plataforma dictamen tesis",
+          "informe resultado dictamen tesis", 
+          "contenido informe resultado dictamen tesis",
+          "adjuntar acta dictamen tesis firmada",
+          "¿Cuántos días tiene el jurado para emitir el dictamen de la tesis?",
+          "¿Qué pasa si el jurado no emite el dictamen en el plazo establecido?",
+          "¿Cómo se cita al jurado para emitir el dictamen?"
+        ],
+        "responses": [
+          "El Jurado en el plazo máximo de diez (10) días hábiles emite el dictamen de Tesis, caso contrario, y si no hubiera justificación alguna, el director procede de oficio al cambio del jurado o alguno de sus miembros. \n \n Para emitir el dictamen de Tesis, el Presidente del Jurado debe citar mediante memorando remitido por correo electrónico a los miembros del Jurado en pleno, fijando lugar, día y hora; con una anticipación mínima de dos (2) días hábiles y con copia a la Dirección de la Escuela Profesional. A este acto podrán asistir en calidad de observadores el Asesor y el Tesista. Todo este acto deberá desarrollarse dentro del claustro Universitario o mediante la plataforma virtual de la Universidad Nacional de Moquegua. \n \n El Presidente del Jurado informa el resultado del dictamen al Director de la Escuela Profesional mediante documento escrito, adjuntando el acta de dictamen firmada por los tres (3) integrantes de dicho Jurado."
+        ]
+      },
+      {
+        "tag": "Artículo 47 Proceso de revisión de la Tesis",
+        "patterns": [
+          "alcances y aportes jurado en revisión proyecto tesis",
+          "mejoras tesis según observaciones proyecto", 
+          "relación entre tesis y objetivos del proyecto",
+          "revision de poryecto de tesis",
+          "revisar tesis por los jurados",
+          "revision de informe de tesis por los jurados",
+          "proceso de revisión de tesis",
+          "revision de proyecto de tesis de jurado",
+          "plazo de revision de proyecto tesis",
+          "jurados revision de proyecto de tesis",
+          "¿Qué aspectos debe revisar el jurado en la tesis?",
+          "¿El jurado puede modificar los objetivos del proyecto de tesis?",
+          "¿Las observaciones deben estar relacionadas con el proyecto aprobado?"
+        ],
+        "responses": [
+          "En el proceso de revisión, el Jurado debe efectuar los alcances, aportes necesarios y pertinentes para el mejoramiento de la calidad científica, teórica y metodológica de la Tesis, en relación al problema y objetivos propuestos en el Proyecto de Tesis, acordes a las observaciones realizadas en la última revisión en que fue declarado apto dicho Proyecto."
+        ]
+      },
+      {
+        "tag": "Artículo 48 Declaración de apto del informe final de la tesis",
+        "patterns": [
+          "declaración de informe final de tesis apta para sustentación",
+          "informe final de tesis puede ser declarado apto",
+          "informe final de tesis puede ser declarado no apto",
+          "dictamen tesis declarado apto requiere unanimidad",
+          "el informe de tesis debe ser declarado apto por los tres miembros",
+          "un plazo mínimo para dictamen de informe tesis",
+          "procedimiento ante dictamen no apto tesis",
+          "observaciones jurado por dictamen no apto de infome de tesis",
+          "plazo entrega observaciones jurado a tesista",
+          "plazo subsanación observaciones jurado informe de tesis", 
+          "reunión jurado para verificar correcciones informe de tesis",
+          "tesista deberá cumplir con absolver de manera integral las observaciones",
+          "presentar la Tesis corregida en un plazo no mayor de treinta",
+          "¿Cuántos miembros del jurado deben declarar apto el informe de tesis?",
+          "¿cuánto tiempo tengo para levantar las observaciones de mi informe?",
+          "¿El jurado puede hacer nuevas observaciones una vez que entregue la tesis corregida?"
+        ],
+        "responses": [
+          "En el proceso de dictamen del informe final de la tesis este puede ser declarado apto o no apto. En caso haya sido declarado apto, en el plazo de dos (2) días, el Jurado propone al Director de Escuela el lugar, fecha y hora para la sustentación de la Tesis. El dictamen del informe final de la tesis debe ser declarado apto por los tres miembros del jurado. \n \n En caso de que el informe final de la Tesis sea declarado no apto, el Jurado tendrá dos (2) días hábiles para remitir el informe escrito con las observaciones realizadas, el Director de Escuela alcanzará al tesista las observaciones para su corrección; el tesista deberá cumplir con absolver de manera integral las observaciones del Jurado y presentar la Tesis corregida, en un plazo no mayor de treinta (30) días calendario. El Jurado se reunirá para verificar el levantamiento de las observaciones realizadas dentro de los ocho (8) días hábiles luego de haber recepcionada la Tesis corregida."
+        ]
+      },
+      {
+        "tag": "Artículo 50 Impedimento de formular nuevas observaciones",
+        "patterns": [
+          "Puede el jurado hacer nuevas observaciones después de entregar la tesis corregida",
+          "Se pueden hacer cambios de fondo en la tesis después del dictamen",
+          "Qué tipo de modificaciones se permiten antes de la sustentacion",
+          "jurado solo puede hacer observaciones una vez", 
+          "limitante a observaciones jurado en tesis",
+          "imposibilidad jurado agregar nuevas observaciones",
+          "restricción de formulación de observaciones tras correcciones",
+          "despues de observar puede volver a observar la tesis",
+          "cuantas veces puede hacer las observaciones el jurado",
+          "puede el jurado bservar varias veces",
+          "observaciones jurado solo en primera revisión",
+          "tesis corregida no admite nuevas observaciones jurado",
+          "modificaciones permitidas a tesis tras dictamen",
+          "cambios de fondo en tesis después de dictamen", 
+          "cambios de forma en tesis después de dictamen",
+          "aconsejable cambios forma tesis previo a sustentación",
+          "prohibición variar contenido tesis para sustentación"
+        ],
+        "responses": [
+          "Una vez presentada la Tesis corregida, el Jurado no podrá formular nuevas observaciones. \n \n Con el dictamen de aprobación del Jurado, el contenido de la tesis no sufrirá ninguna modificación de fondo para el acto de sustentación, solo podrán hacerse las modificaciones necesarias en aspecto de forma."
+        ]
+      },
+      {
+        "tag": "Artículo 53 Fecha y sustentación de Tesis",
+        "patterns": [
+          "convocatoria fecha sustentación tesis",
+          "lugar y fecha de sustentación de tesis", 
+          "comunicado de sustentación tesis",
+          "sede desarrollo acto sustentación tesis",
+          "sustentacion de tesis",
+          "donde sustentare la tesis",
+          "como sustentare la tesis",
+          "la sustentación es publica, habra gente en mis sustetacon",
+          "público en sustentación de tesis",
+          "difusión acto de sustentación de tesis",
+          "carácter académico sustentación de tesis" 
+        ],  
+        "responses": [
+          "El Director de la Escuela Profesional, con un mínimo de dos (2) días hábiles de anticipación, publicará a través del medio de comunicación respectivo (página web de la Universidad Nacional de Moquegua), la fecha, lugar y hora de sustentación de la Tesis. \n \n l acto de sustentación es una actividad académica pública, destinado a la exposición y defensa de la Tesis por parte del tesista ante el Jurado calificador."
+        ]
+      },
+      {
+        "tag": "Artículo 53  Acta de sustentación de tesis",
+        "patterns": [
+          "acta de sustencion de tesis",
+          "firma de acta de sustencion de tesis",
+          "quienes firman la acta de sustencion de tesis",
+          "que debe ir en la acta de sustentacion de tesis",
+          "Con cuántos días de anticipación se publica la fecha de sustentación",
+          "Dónde se publica la fecha, lugar y hora de la sustentación",
+          "La sustentación de tesis es un acto público o privado?"
+        ],  
+        "responses": [
+          "El acta de sustentación de Tesis será firmada por los tres miembros del jurado y el tesista. El Acta será elevada por el Presidente del Jurado a la Dirección de la Escuela respectiva."
+        ]
+      },
+      {
+        "tag": "Artículo 56 : Formalidades de la sustentación",
+        "patterns": [
+          "Cuantos minutos de tolerancia hay para iniciar la sustentación",
+          "El jurado y tesista deben estar presentes físicamente",
+          "Cual es el plazo de tiempo para la sustentacion de tesis",
+          "plazo  de tiempo de sustencion de tesis",
+          "tiempo de sustentacion de tesis",
+          "el tiempo de sustentacion de tesis?",
+          "cuanto dura la sustentacion de tesis?",
+          "cuanto tiempo demora la sustencion de tesis",
+          "quienes deben estar en la sustentación de tesis",
+          "cuanto tiempo antes de convoca a la sustentación de tesis",
+          "convocatoria a sustentación de tesista" 
+        ],  
+        "responses": [
+          "El Jurado en pleno y el tesista deben estar presentes a la hora fijada para el acto de sustentación, con toda la formalidad que el caso requiere; la tolerancia para el inicio será de diez (10) minutos. Los miembros del jurado deberán portar las medallas oficiales de la Escuela Profesional.  \n \n  La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto."
+        ]
+      },
+      {
+        "tag": "Artículo 58 : Preguntas en la sustentación",
+        "patterns": [
+          "preguntas de sustentacion de tesis",
+          "preguntas de jurado en la sustitancion de tesis",
+          "que preguntas habra en dia de la sustentación de tesis",
+          "quienes preguntaran en la sustencion de tesis",
+          "cuantas preguntas haran en la sustentación de tesis",
+          "¿Quiénes pueden hacer preguntas durante la sustentación?",
+          "¿En qué orden se formulan las preguntas?",
+          "¿Se puede modificar el contenido de la tesis en la sustentación?"
+        ],  
+        "responses": [
+          "Al finalizar la sustentación, el Jurado formula las preguntas sobre la exposición y materias relacionadas con el tópico, en ningún caso deberá modificarse el texto ni el título de la tesis presentada. Dicho acto se lleva a cabo empezando por el segundo miembro, luego el primero y finalmente el Presidente del Jurado."
+        ]
+      },
+        {
+          "tag": "Artículo 60 : Puntaje en la sustentación",
+          "patterns": [
+            "Cual es la escala de calificación en la sustentación",
+            "Que puntaje se necesita para aprobar la sustentación",
+            "Como se determina la nota final de la sustentación",
+            "Calificación de la sustentación y defensa de la Tesis",
+            "Ficha de Evaluación de Tesis",
+            "Escala vigesimal de calificación",
+            "Puntaje en la sustentación",
+            "¿Cómo se determina el puntaje en la sustentación?",
+            "¿Qué criterios se consideran para la calificación de la sustentación?",
+            "¿Cuáles son los rangos de puntaje para la aprobación y desaprobación?",
+            "¿Qué significa obtener un puntaje de 17-20 puntos?",
+            "¿Cuál es el puntaje mínimo para aprobar la sustentación?",
+            "Nota final en el acta de sustentación de Tesis",
+            "como se califica la sustencion de tesis",
+            "cuales son las notas de calificacion de sustentación de tesis",
+            "Resultado de la calificación del trabajo",
+            "Resultado de la calificación del acto de sustentación de la Tesis",
+            "¿Cómo se determina el resultado de la calificación?",
+            "Unanimidad en la calificación",
+            "Mayoría en la calificación",
+            "¿Cuál es la forma de calificación?",
+            "¿Se requiere unanimidad para la calificación?",
+            "nota de sustentacion de tesis"
+          ],
+          "responses": [
+            "Terminada la sustentación y defensa de la Tesis, el Presidente del Jurado invita al público a desocupar el ambiente respectivo, y procede a deliberar en estricto privado. La calificación de la sustentación y defensa de la Tesis se hará teniendo en cuenta la Ficha de Evaluación de Tesis y considerando la escala vigesimal: \n a) Aprobado (excelente) 17-20 puntos; \n b) Aprobado 11-16 puntos; \n c) Desaprobado 0-10 puntos. \n \n La nota final es el promedio aritmético que será registrado en el acta de sustentación de Tesis de la Escuela Profesional. \n \n El resultado de la calificación del trabajo y del acto de sustentación de la Tesis es por unanimidad o por mayoría."          
+          ]
+        },
+        {
+          "tag": "Artículo 62 : Deliberación del Jurado",
+          "patterns": [
+            "Deliberación del Jurado",
+            "Acto de deliberación del Jurado",
+            "¿Cómo se lleva a cabo la deliberación del Jurado?",
+            "Declaración del acto como aprobado",
+            "Declaración del acto como desaprobado",
+            "Nota final desaprobatoria",
+            "Segunda oportunidad tras nota desaprobatoria",
+            "Periodo para nueva sustentación después de nota desaprobatoria",
+            "Presentación de nuevo Proyecto de Tesis tras reprobación por segunda vez",
+            "¿Qué sucede si la nota final es desaprobatoria?",
+            "¿Cuánto tiempo tiene el ejecutor de la tesis para una segunda oportunidad?",
+            "¿Qué debe hacer el tesista si es reprobado por segunda vez?",
+            "¿Qué sucede después de terminar la sustentación de tesis?",
+            "¿Quién declara si la sustentación fue aprobada o desaprobada?",
+            "¿Dónde queda registrada la calificación de la sustentación?",
+            "Que pasa si desapruebo la sustentacion de tesis",
+            "¿Cuánto tiempo tengo para una nueva sustentación si desapruebo?"
+          ],
+          "responses": [
+            "Cumplido el acto de deliberación del Jurado, el Presidente del Jurado declara el acto como aprobado o desaprobado, quedando asentado en el acta de sustentación de la Escuela Profesional. \n \n Si la nota final es desaprobatoria, el ejecutor de la tesis tiene una segunda oportunidad, para que después de un periodo no mayor de tres (3) meses, pueda nuevamente sustentar el mismo trabajo. Si es reprobado por segunda vez, el tesista debe presentar un nuevo Proyecto de Tesis."
+          ]
+        },
+        {
+          "tag": "Artículo 64 : Formato Impreso y Digital",
+          "patterns": [
+            "Entrega de ejemplares después de la sustentación",
+            "Formato impreso y digital de la Tesis",
+            "Ejemplares para Biblioteca y Escuela Profesional",
+            "Versión física y digital de la Tesis",
+            "Colocación en el repositorio de la Universidad",
+            "como presento mi tesis depues de la sustentación",
+            "como debe estar impreso la tesis despues de la sustentación",
+            "debe ser impreso la tesis despues de aprobación de sustentación de tesis",
+            "ejemplares de tesis depues de la sustentación",
+            "los ejemplares de tesis deben ser digital o fisica",
+            "¿Cuántos ejemplares de la tesis debo entregar después de la sustentación?",
+            "¿En qué formatos debo entregar la tesis?",
+            "¿A dónde se entregan los ejemplares impresos de la tesis?",
+            "¿Dónde se colocará la versión digital de la tesis?",
+            "¿Puedo entregar la tesis impresa y digital al mismo tiempo?"
+          ],
+          "responses": [
+            "Concluido el acto de sustentación y habiendo sido aprobado, el tesista deberá entregar dos (2) ejemplares, uno para Biblioteca y otro para la Escuela Profesional, en versión física y digital, para su colocación en el repositorio de la Universidad."
+          ]
+        }
+      
+      
+
+
+
+
+    ]
+}
