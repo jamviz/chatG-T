@@ -8,14 +8,16 @@
 </head>
 <body class="light-theme">
   <div class="container">
-        <div class="chat-panel">
-            <div class="chat-display" id="chat-display"></div>
-            <div class="input-area">
-                <input type="text" id="prompt-input" placeholder="Consulta...">
-                <button id="send-button" title="Send"><i class="fas fa-paper-plane"></i></button>
-                <button id="clear-button" title="Clear Chat"><i class="fas fa-trash"></i></button>
-            </div>
+    <div class="chat-panel">
+        <div class="chat-display" id="chat-display">
+            <!-- Mensaje de introducción dinámico aquí -->
         </div>
+        <div class="input-area">
+            <input type="text" id="prompt-input" placeholder="Consulta...">
+            <button id="send-button" title="Send"><i class="fas fa-paper-plane"></i></button>
+            <button id="clear-button" title="Clear Chat"><i class="fas fa-trash"></i></button>
+        </div>
+    </div>
         <div class="info-panel">
             <div class="info-panel-content">
                 <img id="logo" src="static/styles/bot_unam_ico.png" alt="aimaraBot Logo">
@@ -74,57 +76,119 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const infoToggle = document.getElementById('info-toggle');
+            const creditsPanel = document.querySelector('.credits-panel');
+            const overlay = document.getElementById('overlay');
+            
             const chatDisplay = document.getElementById('chat-display');
             const promptInput = document.getElementById('prompt-input');
             const sendButton = document.getElementById('send-button');
             const clearButton = document.getElementById('clear-button');
-            const themeToggle = document.getElementById('theme-toggle');
-            const infoToggle = document.getElementById('info-toggle');
+            const sidebarToggle = document.createElement('button'); // Botón para sidebar
             const infoPanel = document.querySelector('.info-panel');
-            const creditsPanel = document.querySelector('.credits-panel');
-            const overlay = document.getElementById('overlay');
             let startX, startY, moveX, moveY;
 
-            
-            function appendMessage(sender, message) {
-                const messageElement = document.createElement('div');
-                messageElement.className = `message ${sender === 'Tú' ? 'user-message' : 'aimaraBot-message'}`;
-                messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
-                chatDisplay.appendChild(messageElement);
-                chatDisplay.scrollTop = chatDisplay.scrollHeight;
-            }
+            const examples = [
+            "¿Cuáles son los requisitos para obtener el grado academico de bachiller?",
+            "Explícame el procedimiento para solicitar mi titulación.",
+            "¿Cómo inicio tramite de proyecto de tesis?",
+            "¿Cómo presento mi tesis depues de la sustentación?"
+        ];
+
         
-            function clearChat() {
-                chatDisplay.innerHTML = '';
-            }
+        // Crear y posicionar el botón de sidebar
+        sidebarToggle.id = 'sidebar-toggle';
+        sidebarToggle.title = 'Ocultar Sidebar';
+        sidebarToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        document.querySelector('.input-area').appendChild(sidebarToggle); // Agregar al lado derecho
+
+        // Alternar visibilidad del sidebar
+        sidebarToggle.addEventListener('click', () => {
+            infoPanel.classList.toggle('hidden'); // Oculta o muestra el sidebar
+        });
+
+
+    // Añadir un mensaje al chat
+    function appendMessage(sender, message, isHTML = false, extraClass = '') {
+        const messageElement = document.createElement('div');
+        messageElement.className = `message ${sender === 'Tú' ? 'user-message' : 'aimaraBot-message'} ${extraClass}`;
+        messageElement.innerHTML = isHTML ? message : `<strong>${sender}:</strong> ${message}`;
+        chatDisplay.appendChild(messageElement);
+        chatDisplay.scrollTop = chatDisplay.scrollHeight;
+    }
+
+    function renderWelcomeMessage() {
+        const welcomeHTML = `
+            <div class="welcome-container">
+                <h3 class="welcome-title">Hola, soy <span class="highlight">AI-MARA bot</span></h3>
+                <p class="welcome-text">¿En qué puedo ayudarte con los trámites de grados y títulos?</p>
+                <div class="examples-buttons">
+                    ${examples.map(example => 
+                        `<button class="example-btn">${example}</button>`
+                    ).join('')}
+                </div>
+            </div>
+        `;
+        appendMessage('AI-MARA Bot', welcomeHTML, true, 'introduction-message');
+    
+        // Agregar eventos a los botones de ejemplo
+        const exampleButtons = document.querySelectorAll('.example-btn');
+        exampleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                sendMessage(button.textContent);
+            });
+        });
+    }
         
-            async function sendMessage() {
-                const message = promptInput.value.trim();
-                if (message) {
-                    appendMessage('Tú', message);
-                    promptInput.value = '';
-        
-                    try {
-                        const response = await fetch('/get', {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                            },
-                            body: JSON.stringify({ message: message }),
-                        });
-        
-                        if (response.ok) {
-                            const data = await response.json();
-                            appendMessage('AI-MARA Bot', data.response);
-                        } else {
-                            throw new Error('El servidor no esta respondiendo bien.');
-                        }
-                    } catch (error) {
-                        console.error('Error:', error);
-                        appendMessage('AI-MARA Bot', 'Lo siento, intenta de nuevo.');
-                    }
-                }
-            }
+ // Enviar mensaje
+ async function sendMessage(customMessage = null) {
+    const message = customMessage || promptInput.value.trim();
+    if (!message) return;
+
+    appendMessage('Tú', message); // Mensaje del usuario
+    promptInput.value = ''; // Limpiar el campo de entrada
+
+    try {
+        const response = await fetch('/get', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message }),
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            appendMessage('AI-MARA Bot', data.response); // Respuesta del bot
+        } else {
+            throw new Error('El servidor no está respondiendo correctamente.');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        appendMessage('AI-MARA Bot', 'Lo siento, intenta de nuevo.');
+    }
+}
+
+
+    // Limpiar chat y restaurar mensaje de bienvenida
+    clearButton.addEventListener('click', function () {
+        chatDisplay.innerHTML = ''; // Limpiar historial
+        renderWelcomeMessage(); // Restaurar mensaje de introducción
+    });
+
+    // Enviar mensaje con botón
+    sendButton.addEventListener('click', () => sendMessage());
+
+    // Enviar mensaje al presionar Enter
+    promptInput.addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    });
+
+    // Renderizar mensaje de bienvenida al cargar
+    renderWelcomeMessage();
+
+
         
             function toggleTheme() {
                 document.body.classList.toggle('light-theme');
@@ -141,7 +205,8 @@
                     animateCredits();
                 }
             }
-        
+            
+            
             function handleTouchStart(e) {
                 startX = e.touches[0].clientX;
                 startY = e.touches[0].clientY;
@@ -221,7 +286,6 @@
             }
         
             if (sendButton) sendButton.addEventListener('click', sendMessage);
-            if (clearButton) clearButton.addEventListener('click', clearChat);
             if (themeToggle) themeToggle.addEventListener('click', toggleTheme);
             if (infoToggle) infoToggle.addEventListener('click', toggleInfoPanel);
         
@@ -249,6 +313,7 @@
                     creditsPanel.classList.remove('show', 'hide');
                 }
             });
+
         });
     </script>
   </body>

@@ -1,7 +1,8 @@
 import pickle
 import tensorflow as tf
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import load_model
+
 import re
 import random
 import numpy as np
@@ -13,7 +14,7 @@ from sklearn.preprocessing import LabelEncoder
 from flask import Flask, render_template, request, jsonify
 
 # Load chatbot data
-with open("lstm/chatbot.json", 'r') as f:
+with open("lstm/chatbot_grados.json", 'r') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data['intents'])
@@ -34,14 +35,16 @@ for i in range(len(df)):
 df = pd.DataFrame.from_dict(dic)
 
 # Load the tokenizer, label encoder, and the trained model
-with open('lstm/tokenizer_lstm.pkl', 'rb') as handle:
+with open('bigru/tokenizer_bigru.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
-with open('lstm/label_encoder_lstm.pkl', 'rb') as handle:
+
+with open('bigru/label_encoder_bigru.pkl', 'rb') as handle:
     lbl_enc = pickle.load(handle)
 
+
 # Load the LSTM model
-model = load_model('lstm/my_lstm_model.keras')
+model = load_model('bigru/my_bigru_model.keras')
 
 def preprocess_input(pattern, tokenizer, maxlen=18):
     if pattern is None:
@@ -56,7 +59,7 @@ def preprocess_input(pattern, tokenizer, maxlen=18):
 def predict_response(pattern, model, tokenizer, lbl_enc, df):
     x_test = preprocess_input(pattern, tokenizer)
     if x_test is None:
-        return "I'm sorry, I couldn't understand that. Could you please rephrase?"
+        return "Lo siento no pude entender, por favor, intenta de nuevo"
     y_pred = model.predict(x_test)
     y_pred = y_pred.argmax(axis=1)
     tag = lbl_enc.inverse_transform(y_pred)[0]

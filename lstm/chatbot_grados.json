@@ -41,6 +41,9 @@
     {
       "tag": "Despedida",
       "patterns": [
+        "Adios",
+        "chao",
+        "chau",
         "¡Gracias por tu ayuda! Hasta luego",
         "Me has sido de gran ayuda. ¡Adiós por ahora!",
         "¡Excelente servicio! Nos vemos pronto",
